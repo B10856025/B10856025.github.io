@@ -14,11 +14,11 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #f3f2ed;
+		background: rgb(212, 231, 243);
 		font-family: 'Lato', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
-		color: #8A8A8A;
+		color: gray;
 	}
 
 	h1, h2, h3 {
@@ -38,7 +38,7 @@
 
 	strong {
 		font-weight: 700;
-		color: #2A2A2A;
+		color: gray;
 	}
 
 	/* Images */
@@ -94,11 +94,11 @@
 
 	header h2
 	{
-		letter-spacing: -2px;
+		letter-spacing: 2px;
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 2em;
-		color: #323338;
+		color: mediumslateblue;
 	}
 
 	header .byline
@@ -556,7 +556,7 @@ ul.style1 span
 
 ul.style1 a {
 	text-decoration: none;
-	color: #525252;
+	color: gray;
 }
 
 ul.style1 a:hover {
@@ -675,6 +675,7 @@ ul.style3 .first {
 
 	#header
 	{
+		height: 650px;
 		position: relative;
 		text-align: center;
 		background: url(../images/banner.jpg) no-repeat center;
